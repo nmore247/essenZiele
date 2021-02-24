@@ -1,0 +1,60 @@
+p{
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+h1 {
+    font-family: cursive;
+    background-color: rgba(118, 252, 229, 0.897);
+}
+
+h4{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    
+} */
+
+.distance {
+    float: left;
+    padding-right: 50px;
+    position: relative;
+    
+}
+
+
+
+.buttons {
+    float: right;
+    margin-right: 50%;
+}
+
+
+
+.main {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 25px;
+}
+
+
+.results-section {
+    border: solid 1px black;
+    height: max-content;
+    width: 500px;
+
+}
+
+.result-item {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+

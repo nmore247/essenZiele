@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essen Heute</title>
+
+    <!-- custom css stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+   
+    <!-- bootstrap styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+   
+</head>
+<body>
+    <div class="main">
+
+        <header>
+            <h1>WO / WAS ESSEN WIR DENN HEUTE ?</h1>
+        </header>
+        
+        <br>
+    
+        <!-- filter buttons -->
+        <div class="categories">
+            <h4>Kategorien - FILTER</h4>
+            <button class="btn btn-primary" 
+            data-id="Alles">Alles</button>
+            <button class="btn btn-warning" 
+            data-id="Burger">Burger</button>
+            <button class="btn btn-info" 
+            data-id="Pizza/Pasta">Pizza/Pasta</button>
+            <button class="btn btn-danger" 
+            data-id="Asiatisch">Asiatisch</button>
+            <button class="btn btn-success" 
+            data-id="Hausmannkost">Hausmannkost</button>
+            <button class="btn btn-secondary" 
+            data-id="Sonstiges">Sonstiges</button>
+        </div>
+    
+        <br>
+        <hr>
+
+        <div class="container">
+            <!-- entfernung -->
+            <div class="distance">
+                <h4>Entfernung</h4>
+                <button class="btn btn-outline-secondary">Egal</button>
+                <button class="btn btn-outline-secondary">nicht so weit weg</button>
+                <button class="btn btn-outline-secondary">ganz nah dran</button>
+            </div>
+    
+            <!-- Preis -->
+            <div class="price">
+                <h4>Preis</h4>
+                <button class="btn btn-outline-secondary">Egal</button>
+                <button class="btn btn-outline-secondary">nicht zu viel</button>
+                <button class="btn btn-outline-secondary">Ende des Monats</button>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+
+        <!-- veggietauglich -->
+        <div class="veggie">
+            <h4>Veggietauglich</h4>
+            <button class="btn btn-outline-success">Egal</button>
+            <button class="btn btn-outline-success">sollte schon schmeken</button>
+            <button class="btn btn-outline-success">muss ganz lecker sein</button>
+        </div>
+
+        <br>
+        <hr>
+
+        <!-- ergebnisse -->
+        <h4>Ergebnisse</h4>
+
+        <!-- result-items -->
+        <div class="results-section">
+
+            <!-- single-result-item -->
+                <div class="result-item">
+                   <div class="name">
+                       <ul>
+                           <li>
+                               <p></p>
+                           </li>
+                       </ul>
+                   </div>
+                    <i class="fas fa-euro-sign"></i>
+                    <i class="fas fa-car"></i>
+                    <i class="fas fa-leaf"></i>
+                </div>
+
+
+        </div>
+
+        <!-- reset and randomize buttons -->
+        <div class="buttons">
+            <button class="btn btn-secondary">Reset</button>
+            <button class="btn btn-secondary">Randomize</button>
+        </div>
+
+    </div>
+     <!-- javascript file -->
+     <script src="./test.js"></script>
+</body>
+</html>
